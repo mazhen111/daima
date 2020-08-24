@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871edb96-48f5-4fd9-a890-1eb4b780ee8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build_image.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/05-属性查找.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python代码.iml" afterPath="$PROJECT_DIR$/.idea/python代码.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,11 +26,14 @@
     <SUITE FILE_PATH="coverage/python$12_.coverage" NAME="12-斐波那契数数列 Coverage Results" MODIFIED="1588834286888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$05_16.coverage" NAME="05-16进制 Coverage Results" MODIFIED="1586686104378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习" />
     <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02列表练习 Coverage Results" MODIFIED="1586610395861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习" />
+    <SUITE FILE_PATH="coverage/daima$05_.coverage" NAME="05-属性查找 Coverage Results" MODIFIED="1598258733295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
+    <SUITE FILE_PATH="coverage/daima$8_.coverage" NAME="8.时间转换 Coverage Results" MODIFIED="1594215569695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06-高阶函数 Coverage Results" MODIFIED="1587971801239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$11_.coverage" NAME="11-生成器 Coverage Results" MODIFIED="1588238685604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$05_wile.coverage" NAME="05-wile循环 Coverage Results" MODIFIED="1586328627866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门" />
     <SUITE FILE_PATH="coverage/python$first_ied_file.coverage" NAME="first_ied_file Coverage Results" MODIFIED="1586250717782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门" />
     <SUITE FILE_PATH="coverage/python$03_.coverage" NAME="03-函数参数 Coverage Results" MODIFIED="1587889880592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
+    <SUITE FILE_PATH="coverage/daima$07_.coverage" NAME="07-爬虫 Coverage Results" MODIFIED="1594007262536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$list_test.coverage" NAME="list-test Coverage Results" MODIFIED="1586437943915" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习" />
     <SUITE FILE_PATH="coverage/python$08_.coverage" NAME="08-函数递归练习 Coverage Results" MODIFIED="1588050270902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$04_time.coverage" NAME="04-time模块 Coverage Results" MODIFIED="1589281382358" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/02-常用模块" />
@@ -45,6 +47,7 @@
     <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04-全局变量和局部变量 Coverage Results" MODIFIED="1587891320188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$02_os.coverage" NAME="02-os模块 Coverage Results" MODIFIED="1589186654101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/02-常用模块" />
     <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07-函数递归 Coverage Results" MODIFIED="1587976726605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
+    <SUITE FILE_PATH="coverage/daima$06_.coverage" NAME="06-属性查找 Coverage Results" MODIFIED="1597649712045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$02_.coverage" NAME="02-函数 Coverage Results" MODIFIED="1587732490267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
   </component>
   <component name="DatabaseView">
@@ -59,14 +62,72 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="build_image.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build_image.py">
+      <file leaf-file-name="05-属性查找.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="376">
+              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/test.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-面向过程编程.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/01-面向过程编程.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="08-json_demo.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/08-json_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.__init__的用法.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/4.__init__的用法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-265">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="3.如何使用类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/3.如何使用类.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_img_to_target_files.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3220">
+              <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="76" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -99,6 +160,13 @@
       <find>verity_key</find>
       <find>prop_dict</find>
       <find>LoadGlobalDict</find>
+      <find>HandleDowngradeMetadata</find>
+      <find>WriteBlockIncrementalOTAPackage</find>
+      <find>target_zip</find>
+      <find>accounts.get</find>
+      <find>accounts</find>
+      <find>output_zip</find>
+      <find>output_zip, OPTIONS.input_tmp, prefix, &quot;system.map</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -107,57 +175,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/作业/判断类型.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/01-列表.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/list-test.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/02-字符串.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/03-字典.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/列表练习.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/02列表练习.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/04-集合.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/05-16进制.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/兼职白领学生空姐模特护士联系方式.txt" />
-        <option value="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/05-文件处理.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/05-文件处理.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/兼职白领学生空姐模特护士联系方式.txt.new" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/06-不占内存文切换.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/兼职白领学生空姐模特护士联系方式.txt" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/user" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/user.txt" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/passwd.txt" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/test.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/模拟登录.py" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/name_password_init" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/name_init" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/locked_namelist" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/stock_data.txt" />
-        <option value="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/股票查询.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/01-字符编码转换.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/02-函数.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/03-函数参数.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/04-全局变量和局部变量.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/05-嵌套函数.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/06-高阶函数.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/07-函数递归.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/08-函数递归练习.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/练习/win_data.txt" />
-        <option value="$PROJECT_DIR$/02-函数编程/练习/date.txt" />
-        <option value="$PROJECT_DIR$/02-函数编程/练习/01-员工信息修改程序.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/09-装饰器.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/10-生成器.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/11-生成器.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/12-斐波那契数数列.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/13-函数的并发.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/14.并发编程.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/02-常用模块/01-模拟登录.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/02-常用模块/02-os模块.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/02-常用模块/03.sys模块.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/02-常用模块/04-time模块.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/02-常用模块/05-datetime模块.py" />
-        <option value="$PROJECT_DIR$/02-函数编程/1.函数编程/win_data.txt" />
-        <option value="D:/代码/build/baidu/third-party/puffer1b-build/make/tools/releasetools/build_image.py" />
-        <option value="D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/build_image.py" />
-        <option value="$PROJECT_DIR$/build_image.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/06-属性查找.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/07-爬虫.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/8.时间转换.py" />
+        <option value="D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/05-属性查找.py" />
       </list>
     </option>
   </component>
@@ -168,11 +190,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1038" />
   </component>
+  <component name="ProjectId" id="1e1v22QGyt9w7BPvFCTTdfXzaZV" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -188,8 +210,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,16 +222,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-函数编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-函数编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="02-常用模块" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Python27/python.exe" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Cython" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -234,100 +306,112 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.build_image">
-    <configuration default="false" name="02-os模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.05-属性查找">
+    <configuration default="false" name="06-属性查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-函数编程/02-常用模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-函数编程/02-常用模块/02-os模块.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\python代码\daima\03-面向对象\05-属性查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="03.sys模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="05-文字转语音" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-函数编程/02-常用模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-函数编程/02-常用模块/03.sys模块.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="04-time模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="07-爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-函数编程/02-常用模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-函数编程/02-常用模块/04-time模块.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/07-爬虫.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="05-datetime模块" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="8.时间转换" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/02-函数编程/02-常用模块" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/02-函数编程/02-常用模块/05-datetime模块.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/8.时间转换.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="build_image" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="05-属性查找" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/build_image.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/05-属性查找.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -376,7 +460,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
@@ -405,7 +489,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
@@ -472,26 +556,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.02-os模块" />
-      <item index="1" class="java.lang.String" itemvalue="Python.03.sys模块" />
-      <item index="2" class="java.lang.String" itemvalue="Python.04-time模块" />
-      <item index="3" class="java.lang.String" itemvalue="Python.05-datetime模块" />
-      <item index="4" class="java.lang.String" itemvalue="Python.build_image" />
+      <item index="0" class="java.lang.String" itemvalue="Python.06-属性查找" />
+      <item index="1" class="java.lang.String" itemvalue="Python.05-文字转语音" />
+      <item index="2" class="java.lang.String" itemvalue="Python.07-爬虫" />
+      <item index="3" class="java.lang.String" itemvalue="Python.8.时间转换" />
+      <item index="4" class="java.lang.String" itemvalue="Python.05-属性查找" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.build_image" />
-        <item index="1" class="java.lang.String" itemvalue="Python.03.sys模块" />
-        <item index="2" class="java.lang.String" itemvalue="Python.05-datetime模块" />
-        <item index="3" class="java.lang.String" itemvalue="Python.04-time模块" />
-        <item index="4" class="java.lang.String" itemvalue="Python.02-os模块" />
+        <item index="0" class="java.lang.String" itemvalue="Python.05-属性查找" />
+        <item index="1" class="java.lang.String" itemvalue="Python.06-属性查找" />
+        <item index="2" class="java.lang.String" itemvalue="Python.8.时间转换" />
+        <item index="3" class="java.lang.String" itemvalue="Python.07-爬虫" />
+        <item index="4" class="java.lang.String" itemvalue="Python.05-文字转语音" />
       </list>
     </recent_temporary>
   </component>
@@ -508,6 +592,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586226529835</updated>
+      <workItem from="1593501707101" duration="660000" />
     </task>
     <servers />
   </component>
@@ -521,50 +606,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-8" y="0" width="1936" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17811158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22610097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.034077555" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3079667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34312573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.58501786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3115339" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294423" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19976218" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532699" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16111708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924837" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936978" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39952436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924837" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -572,327 +636,279 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="WindowStateProjectService">
+    <state width="1342" height="354" key="GridCell.Tab.0.bottom" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.0.center" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.0.left" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.0.right" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.1.bottom" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.1.center" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.1.left" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state width="1342" height="354" key="GridCell.Tab.1.right" timestamp="1593502367362">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="354" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
+    <state x="270" y="56" key="SettingsEditor" timestamp="1593501756068">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593501756068" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1593502344261">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502344261" />
+    <state x="410" y="142" width="700" height="530" key="recent.locations.popup" timestamp="1593502352568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="410" y="142" width="700" height="530" key="recent.locations.popup/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502352568" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="25" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/daima$06_.coverage" NAME="06-属性查找 Coverage Results" MODIFIED="1593502305292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/05-16进制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/user" />
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/user.txt" />
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/passwd.txt" />
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/01-列表.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/locked_namelist">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/stock_data.txt">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/4.__init__的用法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/name_init">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/3.如何使用类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="529">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/name_password_init">
+    <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="3220">
+          <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/test.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="1380">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/04-集合.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/01-字符编码转换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/05-嵌套函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/03-函数参数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/04-全局变量和局部变量.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/07-函数递归.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="8" lean-forward="false" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="1588" column="0" lean-forward="false" selection-start-line="1588" selection-start-column="0" selection-end-line="1588" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/03-字典.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/02-字符串.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/first_ied_file.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="40" column="13" lean-forward="false" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/05-wile循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/04-猜随机数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="20" lean-forward="false" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/03- 流程控制.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/1.Python基础语法入门/02-用户输入.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/05-文件处理.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/练习/win_data.txt" />
-    <entry file="file://$PROJECT_DIR$/02-函数编程/练习/date.txt">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/4.__init__的用法.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/06-高阶函数.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/3.如何使用类.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="529">
+          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/股票查询.py">
+    <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="3220">
+          <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="76" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/兼职白领学生空姐模特护士联系方式.txt">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="15" lean-forward="false" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/09-装饰器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="11" lean-forward="true" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/08-函数递归练习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/06-不占内存文切换.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="45" lean-forward="false" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习/模拟登录.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/11-生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/02-函数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/10-生成器.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/12-斐波那契数数列.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/14.并发编程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/13-函数的并发.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="1288">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/02-函数编程/练习/01-员工信息修改程序.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="79" column="43" lean-forward="false" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
+        <state relative-caret-position="2001">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/01-模拟登录.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="56" lean-forward="false" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#15#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/04-time模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/05-datetime模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/02-os模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/03.sys模块.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02-函数编程/1.函数编程/win_data.txt">
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/06-random_mode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/11-shutil_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/13.ligin_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/12_re_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/8.时间转换.py" />
+    <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="76" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/代码/build/baidu/third-party/puffer1b-build/make/tools/releasetools/blockimgdiff.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/练习/01-员工信息修改程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1288">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/练习/01-员工信息修改程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="87" column="34" lean-forward="true" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
+    <entry file="file://$PROJECT_DIR$/02-函数编程/练习/01-员工信息修改程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2001">
+          <caret line="87" column="34" lean-forward="false" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/06-random_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/11-shutil_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/07-爬虫.py" />
+    <entry file="file://$PROJECT_DIR$/03-面向对象/8.时间转换.py" />
+    <entry file="file://$PROJECT_DIR$/02-函数编程/3-包跨目录导入/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/12_re_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/13.ligin_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/10-zipfile_mode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/3.如何使用类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="28" lean-forward="false" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3220">
+          <caret line="142" column="73" lean-forward="true" selection-start-line="142" selection-start-column="66" selection-end-line="142" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -900,29 +916,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/代码/build/baidu/third-party/puffer1b-build/make/tools/releasetools/build_image.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/01-面向过程编程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17199">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/build_image.py">
+    <entry file="file://$PROJECT_DIR$/02-函数编程/02-常用模块/08-json_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="756" column="16" lean-forward="false" selection-start-line="756" selection-start-column="16" selection-end-line="756" selection-end-column="16" />
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build_image.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/4.__init__的用法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-265">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
