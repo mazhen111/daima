@@ -46,4 +46,3 @@ r1=Riven('可爱的锐雯雯',80,50)
 print (r1.life_value)
 g1.attack(r1)
 print (r1.life_value)
-
