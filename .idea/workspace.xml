@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871edb96-48f5-4fd9-a890-1eb4b780ee8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/20-proprtty的用法.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/21-绑定方法和非绑定方法介绍.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/22-绑定方法与非绑定应用.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/python代码.iml" afterPath="$PROJECT_DIR$/.idea/python代码.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/23-反射.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,6 +19,7 @@
     <SUITE FILE_PATH="coverage/daima$15_.coverage" NAME="15-多态 Coverage Results" MODIFIED="1598613718682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$.coverage" NAME="股票查询 Coverage Results" MODIFIED="1587640276795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习" />
     <SUITE FILE_PATH="coverage/daima$11_.coverage" NAME="11-继承的时间原理 Coverage Results" MODIFIED="1598353623909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
+    <SUITE FILE_PATH="coverage/daima$23_.coverage" NAME="23-反射 Coverage Results" MODIFIED="1598961737933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$02.coverage" NAME="02列表练习 Coverage Results" MODIFIED="1586610395861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/2.数据类型&amp;文件操作/练习" />
     <SUITE FILE_PATH="coverage/python$06_.coverage" NAME="06-高阶函数 Coverage Results" MODIFIED="1587971801239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$11_.coverage" NAME="11-生成器 Coverage Results" MODIFIED="1588238685604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
@@ -80,16 +76,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="11-继承的时间原理.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-面向对象/11-继承的时间原理.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="805">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="12-子类重新调用父类.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-面向对象/12-子类重新调用父类.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -133,7 +119,7 @@
       <file leaf-file-name="20-proprtty的用法.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-面向对象/20-proprtty的用法.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1311">
+            <state relative-caret-position="435">
               <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
               <folding />
             </state>
@@ -143,7 +129,7 @@
       <file leaf-file-name="21-绑定方法和非绑定方法介绍.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-面向对象/21-绑定方法和非绑定方法介绍.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="320">
               <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
@@ -153,8 +139,8 @@
       <file leaf-file-name="22-绑定方法与非绑定应用.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-面向对象/22-绑定方法与非绑定应用.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -162,10 +148,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-面向过程编程.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="23-反射.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/23-反射.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="642">
+              <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01-面向过程编程.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03-面向对象/01-面向过程编程.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-414">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -176,7 +172,7 @@
         <entry file="file://$PROJECT_DIR$/03-面向对象/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
-              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -247,6 +243,7 @@
         <option value="$PROJECT_DIR$/03-面向对象/21-绑定方法和非绑定方法介绍.py" />
         <option value="$PROJECT_DIR$/03-面向对象/settings.py" />
         <option value="$PROJECT_DIR$/03-面向对象/22-绑定方法与非绑定应用.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/23-反射.py" />
       </list>
     </option>
   </component>
@@ -344,26 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.22-绑定方法与非绑定应用">
-    <configuration default="false" name="16-鸭子算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/16-鸭子算法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.23-反射">
     <configuration default="false" name="17 封装之如何实现属性的隐藏" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -435,6 +413,25 @@
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/22-绑定方法与非绑定应用.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="23-反射" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/23-反射.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -601,19 +598,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.16-鸭子算法" />
-      <item index="1" class="java.lang.String" itemvalue="Python.17 封装之如何实现属性的隐藏" />
-      <item index="2" class="java.lang.String" itemvalue="Python.20-proprtty的用法" />
-      <item index="3" class="java.lang.String" itemvalue="Python.21-绑定方法和非绑定方法介绍" />
-      <item index="4" class="java.lang.String" itemvalue="Python.22-绑定方法与非绑定应用" />
+      <item index="0" class="java.lang.String" itemvalue="Python.17 封装之如何实现属性的隐藏" />
+      <item index="1" class="java.lang.String" itemvalue="Python.20-proprtty的用法" />
+      <item index="2" class="java.lang.String" itemvalue="Python.21-绑定方法和非绑定方法介绍" />
+      <item index="3" class="java.lang.String" itemvalue="Python.22-绑定方法与非绑定应用" />
+      <item index="4" class="java.lang.String" itemvalue="Python.23-反射" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.22-绑定方法与非绑定应用" />
-        <item index="1" class="java.lang.String" itemvalue="Python.21-绑定方法和非绑定方法介绍" />
-        <item index="2" class="java.lang.String" itemvalue="Python.20-proprtty的用法" />
-        <item index="3" class="java.lang.String" itemvalue="Python.17 封装之如何实现属性的隐藏" />
-        <item index="4" class="java.lang.String" itemvalue="Python.16-鸭子算法" />
+        <item index="0" class="java.lang.String" itemvalue="Python.23-反射" />
+        <item index="1" class="java.lang.String" itemvalue="Python.22-绑定方法与非绑定应用" />
+        <item index="2" class="java.lang.String" itemvalue="Python.21-绑定方法和非绑定方法介绍" />
+        <item index="3" class="java.lang.String" itemvalue="Python.20-proprtty的用法" />
+        <item index="4" class="java.lang.String" itemvalue="Python.17 封装之如何实现属性的隐藏" />
       </list>
     </recent_temporary>
   </component>
@@ -749,11 +746,11 @@
     <SUITE FILE_PATH="coverage/daima$06_.coverage" NAME="06-属性查找 Coverage Results" MODIFIED="1593502305292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-面向对象/05-文字转语音.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/05-属性查找.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -805,6 +802,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,6 +819,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1288">
           <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -901,6 +900,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -908,6 +908,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -915,6 +916,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1150">
           <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -930,6 +932,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="6" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -937,6 +940,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="644">
           <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -951,6 +955,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -958,6 +963,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -973,6 +979,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,6 +987,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-177">
           <caret line="23" column="0" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="23" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,18 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-面向对象/20-proprtty的用法.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/01-面向过程编程.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/03-面向对象/21-绑定方法和非绑定方法介绍.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-414">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1050,25 +1050,41 @@
     <entry file="file://$PROJECT_DIR$/03-面向对象/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <caret line="2" column="12" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-面向对象/22-绑定方法与非绑定应用.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="435">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-面向对象/01-面向过程编程.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/20-proprtty的用法.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="435">
+          <caret line="57" column="10" lean-forward="false" selection-start-line="57" selection-start-column="10" selection-end-line="57" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/21-绑定方法和非绑定方法介绍.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/23-反射.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="38" column="7" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
           <folding />
         </state>
       </provider>
