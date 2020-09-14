@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871edb96-48f5-4fd9-a890-1eb4b780ee8c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/客户端.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/服务端.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/client/download/3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/client/download/timg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/server/share/3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/server/share/timg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/share/3.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/share/timg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/client/客户端.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/server/服务端.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/客户端.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/服务端.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +50,7 @@
     <SUITE FILE_PATH="coverage/daima$27_.coverage" NAME="27-自定义元类控制的实例化行为 Coverage Results" MODIFIED="1599115534142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$03__.coverage" NAME="03- 流程控制 Coverage Results" MODIFIED="1586260109463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1-开发基础/1.Python基础语法入门" />
     <SUITE FILE_PATH="coverage/daima$1.coverage" NAME="客户端1 Coverage Results" MODIFIED="1599212899777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/02-修改bug版本" />
-    <SUITE FILE_PATH="coverage/daima$__1_.coverage" NAME="客户端 (1) Coverage Results" MODIFIED="1599487451328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh" />
+    <SUITE FILE_PATH="coverage/daima$__1_.coverage" NAME="客户端 (1) Coverage Results" MODIFIED="1599989510694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client" />
     <SUITE FILE_PATH="coverage/python$02_.coverage" NAME="02-函数 Coverage Results" MODIFIED="1587732490267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01-模拟登录 Coverage Results" MODIFIED="1589182744635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/02-常用模块" />
     <SUITE FILE_PATH="coverage/daima$28_.coverage" NAME="28-自定义元类控制类的初始化应用 Coverage Results" MODIFIED="1599116059697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
@@ -72,7 +81,7 @@
     <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04-全局变量和局部变量 Coverage Results" MODIFIED="1587891320188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
     <SUITE FILE_PATH="coverage/daima$25_.coverage" NAME="25-元类的介绍 Coverage Results" MODIFIED="1599045590133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/daima$22_.coverage" NAME="22-绑定方法与非绑定应用 Coverage Results" MODIFIED="1598951122152" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
-    <SUITE FILE_PATH="coverage/daima$.coverage" NAME="客户端 Coverage Results" MODIFIED="1599465515652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/03-加上链路循环" />
+    <SUITE FILE_PATH="coverage/daima$.coverage" NAME="客户端 Coverage Results" MODIFIED="1599983955993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/client" />
     <SUITE FILE_PATH="coverage/python$02_os.coverage" NAME="02-os模块 Coverage Results" MODIFIED="1589186654101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/02-常用模块" />
     <SUITE FILE_PATH="coverage/daima$12_.coverage" NAME="12-子类重新调用父类 Coverage Results" MODIFIED="1598358647834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
     <SUITE FILE_PATH="coverage/python$07_.coverage" NAME="07-函数递归 Coverage Results" MODIFIED="1587976726605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/02-函数编程/1.函数编程" />
@@ -90,11 +99,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/客户端.py">
+      <file leaf-file-name="客户端.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/客户端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+            <state relative-caret-position="456">
+              <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -102,11 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="服务端.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/服务端.py">
+      <file leaf-file-name="服务端.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/服务端.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+            <state relative-caret-position="988">
+              <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="46" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -159,9 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/03-面向对象/06-属性查找.py" />
-        <option value="$PROJECT_DIR$/03-面向对象/07-爬虫.py" />
-        <option value="$PROJECT_DIR$/03-面向对象/8.时间转换.py" />
         <option value="D:/代码/puffer1b-build/baidu/third-party/puffer1b-build/make/tools/releasetools/add_img_to_target_files.py" />
         <option value="$PROJECT_DIR$/03-面向对象/05-属性查找.py" />
         <option value="$PROJECT_DIR$/03-面向对象/06-练习题01.py" />
@@ -206,6 +212,13 @@
         <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh/服务端.py" />
         <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/客户端.py" />
         <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/服务端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/服务端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/client/客户端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/server/服务端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/client/客户端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/server/服务端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/服务端.py" />
+        <option value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/客户端.py" />
       </list>
     </option>
   </component>
@@ -240,6 +253,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -270,11 +285,135 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="03-粘包" />
+              <option name="myItemId" value="04-文件传输" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="02-解决粘包最终版" />
+              <option name="myItemId" value="2-函数版本" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-网络编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-文件传输" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-函数版本" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="share" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-网络编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-文件传输" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-函数版本" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-网络编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-文件传输" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_普通版本" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="daima" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2-网络编程" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="04-文件传输" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1_普通版本" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -299,36 +438,6 @@
               <option name="myItemId" value="03-粘包" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="01-简单解决粘包" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="daima" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="03-面向对象" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2-网络编程" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="02-套接字加循环" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="04-ssh" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -381,13 +490,15 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="03-面向对象" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-对象" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -402,19 +513,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环" />
-      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环\02-修改bug版本" />
-      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环\1-加循环通信" />
-      <recent name="D:\python代码\daima\03-面向对象\1-对象" />
-      <recent name="D:\python代码\1-开发基础\2.数据类型&amp;文件操作" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\1_普通版本" />
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\server\share" />
       <recent name="D:\python代码\daima\03-面向对象\2-网络编程\03-粘包\02-解决粘包最终版" />
       <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环\04-ssh" />
       <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环\03-加上链路循环" />
-      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\02-套接字加循环\02-修改bug版本" />
-      <recent name="D:\python代码\02-函数编程\1.函数编程" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\2-函数版本" />
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\server\share" />
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\client" />
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\server" />
+      <recent name="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\share" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -429,83 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.客户端 (2)">
-    <configuration default="false" name="客户端1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/03-加上链路循环" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/03-加上链路循环/客户端1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="服务端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh/服务端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="客户端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/02-套接字加循环/04-ssh/客户端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="服务端 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python代码" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/服务端.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.客户端 (1)">
     <configuration default="false" name="客户端 (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -519,22 +554,86 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python代码" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/客户端.py" />
+      <option name="SCRIPT_NAME" value="D:\python代码\daima\03-面向对象\2-网络编程\04-文件传输\client\客户端.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+    <configuration default="false" name="服务端" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="PROJECT_INTERPRETER" value="false" />
-      <option name="WORKING_DIRECTORY" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SCRIPT_NAME" value="" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/server/服务端.py" />
       <option name="PARAMETERS" value="" />
-      <module name="" />
-      <envs />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="客户端" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/client/客户端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="服务端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/服务端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="客户端 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python代码" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/客户端.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -686,19 +785,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.客户端1 (1)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.服务端 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.客户端 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.服务端 (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.客户端 (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.客户端 (2)" />
+      <item index="1" class="java.lang.String" itemvalue="Python.服务端" />
+      <item index="2" class="java.lang.String" itemvalue="Python.客户端" />
+      <item index="3" class="java.lang.String" itemvalue="Python.服务端 (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.客户端 (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.客户端 (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.服务端 (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.客户端 (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.服务端 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.客户端1 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.客户端 (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.服务端 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.客户端" />
+        <item index="3" class="java.lang.String" itemvalue="Python.服务端" />
+        <item index="4" class="java.lang.String" itemvalue="Python.客户端 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -732,17 +831,17 @@
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19688842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19914803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25802615" sideWeight="0.50322235" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25591883" sideWeight="0.50479233" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25591883" sideWeight="0.49520767" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25381905" sideWeight="0.49785176" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2573443" sideWeight="0.49677765" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25704622" sideWeight="0.49677765" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -761,50 +860,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="354" key="GridCell.Tab.0.bottom" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.0.center" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.0.left" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.0.right" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.1.bottom" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.1.center" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.1.left" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state width="1342" height="354" key="GridCell.Tab.1.right" timestamp="1593502367362">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1342" height="354" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502367362" />
-    <state x="270" y="56" key="SettingsEditor" timestamp="1593501756068">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="270" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593501756068" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1593502344261">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502344261" />
-    <state x="410" y="142" width="700" height="530" key="recent.locations.popup" timestamp="1593502352568">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="410" y="142" width="700" height="530" key="recent.locations.popup/0.0.1536.824/1920.0.1536.824@0.0.1536.824" timestamp="1593502352568" />
+    <state width="1342" height="354" key="GridCell.Tab.0.bottom" />
+    <state width="1342" height="354" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.0.center" />
+    <state width="1342" height="354" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.0.left" />
+    <state width="1342" height="354" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.0.right" />
+    <state width="1342" height="354" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.1.bottom" />
+    <state width="1342" height="354" key="GridCell.Tab.1.bottom/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.1.center" />
+    <state width="1342" height="354" key="GridCell.Tab.1.center/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.1.left" />
+    <state width="1342" height="354" key="GridCell.Tab.1.left/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="1342" height="354" key="GridCell.Tab.1.right" />
+    <state width="1342" height="354" key="GridCell.Tab.1.right/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state x="270" y="56" key="SettingsEditor" />
+    <state x="270" y="56" key="SettingsEditor/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state width="498" height="446" key="SwitcherDM" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
+    <state x="410" y="142" width="700" height="530" key="recent.locations.popup" />
+    <state x="410" y="142" width="700" height="530" key="recent.locations.popup/0.0.1536.824/1920.0.1536.824@0.0.1536.824" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -816,15 +893,6 @@
     <SUITE FILE_PATH="coverage/daima$06_.coverage" NAME="06-属性查找 Coverage Results" MODIFIED="1593502305292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/03-面向对象" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/05-属性查找.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/06-练习题01.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/09-继承的属性查找.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/10-派生.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/16-鸭子算法.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/08-继承.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/13-组合.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/15-多态.py" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/07-练习题02.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/11-继承的时间原理.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/17 封装之如何实现属性的隐藏.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/14-抽象类.py" />
@@ -837,7 +905,6 @@
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/25-元类的介绍.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/01-面向过程编程.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/2.txt" />
-    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/27-自定义元类控制的实例化行为.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/28-自定义元类控制类的初始化应用.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/26-自定义元类控制类的创建.py" />
     <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/30-异常处理的用法.py" />
@@ -924,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -932,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -940,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,9 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -960,26 +1019,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#13#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/客户端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/download/timg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/download/3.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/4.__init__的用法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/06-练习题01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/16-鸭子算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/1-对象/27-自定义元类控制的实例化行为.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/client/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="78" lean-forward="false" selection-start-line="3" selection-start-column="78" selection-end-line="3" selection-end-column="78" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/03-粘包/02-解决粘包最终版/服务端.py">
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/1_普通版本/server/服务端.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="152">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/server/服务端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="52" column="46" lean-forward="false" selection-start-line="52" selection-start-column="43" selection-end-line="52" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03-面向对象/2-网络编程/04-文件传输/2-函数版本/client/客户端.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
