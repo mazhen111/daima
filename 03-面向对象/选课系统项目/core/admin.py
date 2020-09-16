@@ -46,7 +46,20 @@ def login():
 #创建学校
 @common.aute("admin")
 def create_school():
-    pass
+    while True:
+        school_name = input("请输入学校名称").strip()
+        school_addr = input("请输入学校地址").strip()
+        flag, mag = admin_interface.create_school_interface(
+            #学校名 学校地址，创建学校的管理员
+            school_name, school_addr,admin_info.get("user")
+        )
+
+        if flag:
+            print(mag)
+            break
+        else:
+            print(mag)
+
 #创建课程
 @common.aute("admin")
 def create_course():

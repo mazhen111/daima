@@ -26,7 +26,40 @@ def admin_log_interface(user,password):
         return True,"登录成功"
     else:
         return False ,"登录失败"
+#创建学校的接口
+def create_school_interface(school_name,school_addr,user):
+    """
+    :param school_name: 
+    :param school_addr: 
+    :return:
+     1 查看当前学校是否存在
+     2若学校存在返回False告诉用户学校存在
+     3 学校不存在，择创建学校 有管理远创建
+     
+    """
+    print(user)
+    school_obj=models.School.select(school_name)
+    if school_obj:
+        return False ,"学校已存在"
+   #3 学校不存在，择创建学校 有管理远创建
+    admin_obj = models.Admin.select(user)
+    admin_obj.create_school(
+        school_name, school_addr
+    )
+    #4返回创建学校成功给视图
+    return  True,'f[{school_name}]'
 
+
+
+
+
+
+
+
+
+
+
+    pass
 
 
 
