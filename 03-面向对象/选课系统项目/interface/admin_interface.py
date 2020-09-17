@@ -50,6 +50,19 @@ def create_school_interface(school_name,school_addr,user):
     return  True,'f[{school_name}]'
 
 
+def create_course_interface(school_name,course_name,admin_name):
+    #1查看对象是否存在
+    #先获取学校的列表
+    school_obj=models.School.select(school_name)
+    if course_name in school_obj.course_list:
+        return False,"当前课程已存在"
+    #1.2若课程不存在，则创建课程
+    print (admin_name,"admin_name")
+    admin_obj=models.Admin.select(admin_name)
+    admin_obj.create_course(
+        school_obj,course_name)
+    print ("mazhe111")
+    return True ,course_name,"绑定成功绑定给",school_name,"校区"
 
 
 
@@ -59,7 +72,6 @@ def create_school_interface(school_name,school_addr,user):
 
 
 
-    pass
 
 
 

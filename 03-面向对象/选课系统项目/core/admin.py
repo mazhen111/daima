@@ -7,6 +7,7 @@ admin_info={
     "user":None
 }
 from interface import admin_interface
+from interface import  common_interface
 #注册
 def  register():
     while True:
@@ -63,7 +64,44 @@ def create_school():
 #创建课程
 @common.aute("admin")
 def create_course():
-    pass
+    while True :
+        #1先让管理员选择学校
+        #1.1 调用接口选择所有学校的名称打印
+        flag,school_list_or_msg=common_interface.get_all_school_interface()
+        #2选择学校，在输入课程
+        if not  flag :
+            print (school_list_or_msg)
+            break
+        for index,school_name in enumerate(school_list_or_msg):
+            print ('编号:%s  学校名：%s'%(index,school_name))
+        choice=input("请输入学校编号").strip()
+        if not choice.isdigit():
+            print("请输入数字")
+            continue
+        choice=int(choice)
+        if choice not in range(len(school_list_or_msg)):
+            print ("请输入正确的编号")
+        #h获取选择后的学校
+        school_name = school_list_or_msg[choice]
+        #2选择学校后在输入课程
+        course_name=input("请输入要创建的课程").strip()
+        #3调用创建课程的接口，让管理员创建课程
+        print (admin_info.get("user"),"11111")
+        flag, mag = admin_interface.create_course_interface(
+            # 学校名 学校地址，创建学校的管理员
+            school_name, course_name, admin_info.get("user")
+        )
+        if flag:
+            print(mag)
+            break
+        else:
+            print(mag)
+
+    #3调用创建课程接口，让管理员创建课程
+
+
+
+
 #常见讲师
 @common.aute("admin")
 def create_teacher():
