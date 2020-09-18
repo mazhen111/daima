@@ -2,20 +2,13 @@
 管理员接口
 """
 from db import models
-def admin_register_interface(user,password):
-
-
-      #1.判断用户是否存在
-      #1.1 若存在不允许注册 ，返回用户给视图
-      obj=models.Admin.select(user)
-      if obj:
-            return False ,"账户已存在"
-      else:
-            #1.2 若不存在则注册
-            admin_obj=models.Admin(user,password)
-            #对象调用save（）将把admin_obj传给save方法
-            admin_obj.save()
-            return True,"注册成功"
+from interface import common_interface
+# def admin_register_interface(user,password):
+#
+#
+#       #1.判断用户是否存在
+#       #1.1 若存在不允许注册 ，返回用户给视图
+#       common_interface.log_interface(user,password,"admin")
 
 
 def admin_log_interface(user,password):
@@ -61,8 +54,28 @@ def create_course_interface(school_name,course_name,admin_name):
     admin_obj=models.Admin.select(admin_name)
     admin_obj.create_course(
         school_obj,course_name)
-    print ("mazhe111")
-    return True ,course_name,"绑定成功绑定给",school_name,"校区"
+    #print (school_obj,course_name)
+    #return True ,course_name,"绑定成功绑定给",school_name,"校区"
+    return True,"11111"
+#创建老师接口
+
+def create_teacher_interface(teacher_name, admin_name,teacher_pass="123"):
+    teacher_obj=models.Teacher.select(teacher_name)
+    if teacher_obj :
+        return False,"老师已存在"
+    #2
+ #1.2若课程不存在，则创建课程
+    admin_obj=models.Admin.select(admin_name)
+    admin_obj.create_teacher(
+        teacher_name,teacher_pass
+    )
+    return True,"{%s}老师创建成功"%{teacher_name}
+
+
+
+
+
+
 
 
 

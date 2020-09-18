@@ -3,6 +3,7 @@
 """
 
 from lib import common
+from interface import common_interface
 admin_info={
     "user":None
 }
@@ -15,8 +16,8 @@ def  register():
         password=input("请输入密码").strip()
         re_password=input("请确认密码").strip()
         if password == re_password :
-            flag,mag=  admin_interface.admin_register_interface(
-                    username,password
+            flag,mag=  admin_interface.common_interface.log_interface(
+                    username,password,user_type="admin"
                 )
             if  flag :
                 print(mag)
@@ -74,15 +75,16 @@ def create_course():
             break
         for index,school_name in enumerate(school_list_or_msg):
             print ('编号:%s  学校名：%s'%(index,school_name))
-        choice=input("请输入学校编号").strip()
-        if not choice.isdigit():
+        choices=input("请输入学校编号").strip()
+        if not choices.isdigit():
             print("请输入数字")
             continue
-        choice=int(choice)
-        if choice not in range(len(school_list_or_msg)):
+        choices=int(choices)
+        if choices not in range(len(school_list_or_msg)):
             print ("请输入正确的编号")
         #h获取选择后的学校
-        school_name = school_list_or_msg[choice]
+        school_name = school_list_or_msg[choices]
+        print (school_name,"选择学校")
         #2选择学校后在输入课程
         course_name=input("请输入要创建的课程").strip()
         #3调用创建课程的接口，让管理员创建课程
@@ -105,7 +107,20 @@ def create_course():
 #常见讲师
 @common.aute("admin")
 def create_teacher():
-    pass
+    while True :
+
+        #1让管理员输入创建老师
+        teacher_name=input("请输入创建老师的名字").strip()
+        #调用老婆接口创建老师
+        flag, mag = admin_interface.create_teacher_interface(
+            teacher_name, admin_info.get("user")
+        )
+        if flag:
+            print(mag)
+            break
+        else:
+            print(mag)
+
 
 
 

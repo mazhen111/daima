@@ -1,5 +1,6 @@
 #获取所有学校的接口
 from conf import settings
+from db import models
 import os
 #获取学校文件路径
 def get_all_school_interface():
@@ -13,4 +14,23 @@ def get_all_school_interface():
     #若文件存在，则获取问价中所有文件的名字
     school_list=os.listdir(school_dir)
     return  True,school_list
+#登录公告接口
+def log_interface(user,password,user_type):
+    if user_type == "admin":
+        obj = models.Admin.select(user)
+    elif user_type == "student":
+        obj = models.Student.select(user)
+    elif user_type == "teacher":
+        obj = models.Teacher.select(user)
+    else: False,"登录用户角色不存在"
+
+    #判断用户存在
+    if  obj :
+        if password == obj.pwd:
+            return True, "登录成功"
+        else:
+            return False, "登录失败"
+
+    else:
+        return False,"用户不存在"
 

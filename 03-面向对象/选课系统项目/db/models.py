@@ -29,14 +29,18 @@ class Admin(Base):
         course_obj.save()
         #获取当前学校对象，并把课程添加课程列表
         school_obj.course_list.append(course_name)
+        print (school_obj.course_list)
         #更新学校
         print("更新学校")
         school_obj.save()
 
 
 
-    def create_teacher(self):
-        pass
+    def create_teacher(self,teacher_name,teacher_pass):
+
+        teacher_obj=Teacher(teacher_name,teacher_pass)
+        teacher_obj.save()
+
 
 
 class School(Base):
@@ -48,12 +52,21 @@ class School(Base):
 
 
 class Student(Base):
-    pass
-
+    def __init__(self,student_name,student_pwd):
+        self.user=student_name
+        self.pwd=student_pwd
+        #一个学生只能有校区小区
+        self.school = None
+        #一个学生可以选择多个课程
+        self.course_list=[]
+        self.score={} #{"course_name:0}
 class Course(Base):
     def __init__(self,course_name):
         self.user = course_name
         self.student_list=[]
 
 class Teacher(Base):
-    pass
+    def __init__(self,teacher_name,teacher_pwd):
+        self.user=teacher_name
+        self.pwd=teacher_pwd
+        self.course_list_from_tea=[]
