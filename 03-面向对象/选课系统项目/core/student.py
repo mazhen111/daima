@@ -36,6 +36,7 @@ def login():
             username,password,user_type="student"
         )
         if flag:
+            student_info["user"] = username
             print(mag)
             break
         else:
@@ -46,6 +47,7 @@ def login():
 
 @common.aute("student")
 def choice_school():
+    #选择学校
     while True:
         flag, school_list = common_interface.get_all_school_interface()
         if not  flag:
@@ -73,11 +75,46 @@ def choice_school():
             print(mag)
 
 @common.aute("student")
+#学生选择课程
 def choice_course():
-    pass
+    #1先获取当前学生所在学校的课程
+    while True:
+        flag,course_list = student_interface.get_course_list_interface(
+            student_info.get("user"))
+        if not flag:
+            print(course_list)
+            break
+        for index ,choice_name in enumerate(course_list):
+            print ("编号%s，学校%s"%(index,choice_name))
+        choices=input("请输入编号").strip()
+        if not choices.isdigit():
+            print ("请输入数字")
+            continue
+        choices=int(choices)
+        if choices not in range(len(course_list)):
+            print ("请输入正确的编号")
+            continue
+        course_name=course_list[choices]
+        flag, mag=student_interface.add_coure_interface(
+            course_name,student_info.get("user")
+        )
+        if flag:
+            print(mag)
+            break
+        else:
+            print(mag)
+
+
+
 @common.aute("student")
+#查看分数
 def check_sore():
-    pass
+    score=student_interface.check_sore_interface(
+        student_info.get("user")
+    )
+    if not score:
+        print ("没有课程")
+    print(score)
 
 func_dict={
     "1":register,

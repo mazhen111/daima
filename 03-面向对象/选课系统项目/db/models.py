@@ -60,6 +60,26 @@ class Student(Base):
         #一个学生可以选择多个课程
         self.course_list=[]
         self.score={} #{"course_name:0}
+    #添加学校的方法
+    def add_school(self,school_name):
+        self.school=school_name
+        self.save()
+    # 学生添加课程的方法
+    def add_course(self,course_name):
+        #1 学生课程列表添加课程
+        self.course_list.append(course_name)
+        #2给学生默认分数
+        self.score[course_name]=0
+        print (self.score)
+        self.save()
+        #3学生选择课程，添加学生
+        obj=Course(course_name)
+        obj.student_list.append(
+            self.user
+        )
+        obj.save()
+
+
 class Course(Base):
     def __init__(self,course_name):
         self.user = course_name
@@ -70,3 +90,11 @@ class Teacher(Base):
         self.user=teacher_name
         self.pwd=teacher_pwd
         self.course_list_from_tea=[]
+    def show_course(self):
+        return  self.course_list_from_tea
+
+
+    def add_course(self,couse_name):
+        self.course_list_from_tea.append(couse_name)
+        self.save()
+
