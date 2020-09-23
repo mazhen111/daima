@@ -68,25 +68,124 @@ def chosse_course():
             print("请输入正确的编号")
             continue
         #选择课程的名字
-        couse_name = couse_list[choices]
+        couse_name = couse_list[choices2]
         print (couse_name)
 
 
         #调用接口，将课程添加到列表中
-        teacher_interface.add_course_interface(
+        flag3, mag3 = teacher_interface.add_course_interface(
             couse_name,teacher_info.get("user")
         )
-        return True, "{%s}课程创建成功" % {couse_name}
+        if flag:
+            print(mag3)
+            break
+        else:
+            print(mag3)
 
 
 
-
+#查看课程下学生
 @common.aute("teacher")
 def check_stu_from_course():
-    pass
+    while True:
+        #查看教授的课程
+        flag, course_list = teacher_interface.check_course_interface(
+            teacher_info.get("user")
+        )
+        if flag:
+            print(course_list)
+        else:
+            print(course_list)
+        for index,course_name in enumerate(course_list):
+            print("编号%s，课程%s" % (index,course_name))
+        choices = input("请输入编号").strip()
+        if not choices.isdigit():
+            print("请输入数字")
+            continue
+        choices = int(choices)
+        if choices not in range(len(course_list)):
+            print("请输入正确的编号")
+            continue
+        # 选择课程的名字
+        course_name=course_list[choices]
+        print(course_name)
+        print (teacher_info.get("user"))
+        flag2, student_list=teacher_interface.get_student_interface(
+            course_name,teacher_info.get("user")
+        )
+        if flag2:
+            print (student_list,"222")
+            break
+        else:
+            print (student_list,"11")
+            break
 @common.aute("teacher")
+#修改分数
 def change_score_syudent():
-    pass
+    """
+     1 先获取老师下的所有的课程，并选择
+     2 获取选择老师科恒的学生
+     3 调用接口修改学生成绩
+    """
+    while True:
+        # 查看教授的课程
+        flag, course_list = teacher_interface.check_course_interface(
+            teacher_info.get("user")
+        )
+        if flag:
+            print(course_list)
+        else:
+            print(course_list)
+        for index, course_name in enumerate(course_list):
+            print("编号%s，课程%s" % (index, course_name))
+        choices = input("请输入编号").strip()
+        if not choices.isdigit():
+            print("请输入数字")
+            continue
+        choices = int(choices)
+        if choices not in range(len(course_list)):
+            print("请输入正确的编号")
+            continue
+        # 选择课程的名字
+        course_name = course_list[choices]
+        print(course_name)
+        print(teacher_info.get("user"))
+        flag2, student_list = teacher_interface.get_student_interface(
+            course_name, teacher_info.get("user")
+        )
+        if not flag2:
+            print(student_list)
+            break
+        for index2,student_name in enumerate(student_list):
+            print("编号%s， 学生名%s" % (index2, student_name))
+        choices2 = input("请输入编号").strip()
+        if not choices2.isdigit():
+            print("请输入数字")
+            continue
+        choices2 = int(choices2)
+        if choices2 not in range(len(student_list)):
+            print("请输入正确的编号")
+            continue
+        # 选择课程的名字
+        student_name = student_list[choices]
+        #修改学生成绩
+        score=input("请输入修改的成绩分数：").strip()
+        if not score.isdigit():
+            print ("输入有误")
+            continue
+        score=int(score)
+        #调用修改学生接口
+        flag3,mag = teacher_interface.change_score_interface(
+            student_name,score,
+            course_name,teacher_info.get("user")
+        )
+        if flag3:
+            print (mag)
+            break
+
+
+
+
 
 func_dict={
     "1":login,

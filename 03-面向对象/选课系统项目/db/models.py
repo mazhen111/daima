@@ -91,10 +91,22 @@ class Teacher(Base):
         self.pwd=teacher_pwd
         self.course_list_from_tea=[]
     def show_course(self):
+        print("222")
         return  self.course_list_from_tea
 
 
     def add_course(self,couse_name):
         self.course_list_from_tea.append(couse_name)
         self.save()
+    def get_student(self,course_name):
+        course_obj=Course.select(course_name)
+        return  course_obj.student_list
+    #老师修改分数方法
+    def change_score(self,student_name,score,course_name):
+        student_obj=Student.select(student_name)
+        student_obj.score[course_name]=score
+        print (student_obj.score)
+        student_obj.save()
+
+
 
