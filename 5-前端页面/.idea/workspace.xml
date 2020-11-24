@@ -27,15 +27,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa05c390-3163-4e04-8f1f-4ef04f17f762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-CSS/07-css伪类选择器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/08-标签选择器总结.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/09-继承性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/10-!importamt讲解.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/11-字体属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/12-文本属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/13-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/14-文件属性之text-indent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/15-text_font_summary.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/16-块状元素特点.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/17-display属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/18-小米导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/19-定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/20-相对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/21-绝对定位.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/22-盒子模型.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/选课系统项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/选课系统项目.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4-并发编程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4-并发编程/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -91,29 +93,29 @@
       <recent name="D:\python代码\daima\5-前端页面\02-CSS\imge" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.14-文件属性之text-indent.html">
-    <configuration name="09-继承性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/09-继承性.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.22-盒子模型.html">
+    <configuration name="16-块状元素特点.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/16-块状元素特点.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="10-!importamt讲解.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/10-!importamt讲解.html" useBuiltInWebServerPort="true">
+    <configuration name="17-display属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/17-display属性.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="11-字体属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/11-字体属性.html" useBuiltInWebServerPort="true">
+    <configuration name="18-小米导航栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/18-小米导航栏.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="13-demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/13-demo.html" useBuiltInWebServerPort="true">
+    <configuration name="20-相对定位.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/20-相对定位.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="14-文件属性之text-indent.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/14-文件属性之text-indent.html" useBuiltInWebServerPort="true">
+    <configuration name="22-盒子模型.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/22-盒子模型.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.14-文件属性之text-indent.html" />
-        <item itemvalue="JavaScript Debug.13-demo.html" />
-        <item itemvalue="JavaScript Debug.11-字体属性.html" />
-        <item itemvalue="JavaScript Debug.10-!importamt讲解.html" />
-        <item itemvalue="JavaScript Debug.09-继承性.html" />
+        <item itemvalue="JavaScript Debug.22-盒子模型.html" />
+        <item itemvalue="JavaScript Debug.20-相对定位.html" />
+        <item itemvalue="JavaScript Debug.18-小米导航栏.html" />
+        <item itemvalue="JavaScript Debug.17-display属性.html" />
+        <item itemvalue="JavaScript Debug.16-块状元素特点.html" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +134,8 @@
       <workItem from="1602662397924" duration="9119000" />
       <workItem from="1602743510437" duration="8017000" />
       <workItem from="1603694246644" duration="2138000" />
-      <workItem from="1603696506874" duration="6815000" />
+      <workItem from="1603696506874" duration="18599000" />
+      <workItem from="1606112157705" duration="9494000" />
     </task>
     <servers />
   </component>
