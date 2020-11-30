@@ -27,19 +27,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa05c390-3163-4e04-8f1f-4ef04f17f762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01-HEML/27-html居中.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/26-清除HRLM的默认元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/27-文件环绕.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/28-浮动现象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/29-浮动的破坏性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/30-清除浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-CSS/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/31-overflow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/32-BFC.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-CSS/33-小米商城导航栏.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/选课系统项目.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../03-面向对象/选课系统项目/.idea/选课系统项目.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../4-并发编程/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../4-并发编程/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-CSS/30-清除浮动.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-CSS/30-清除浮动.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,20 +81,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\python代码\daima\5-前端页面\02-CSS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python代码\daima\5-前端页面\02-CSS" />
       <recent name="D:\python代码\daima\5-前端页面" />
       <recent name="D:\python代码\daima\5-前端页面\02-CSS\imge" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\python代码\daima\5-前端页面\02-CSS" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.30-清除浮动.html">
+  <component name="RunManager" selected="JavaScript Debug.33-小米商城导航栏.html">
     <configuration name="27-文件环绕.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/27-文件环绕.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="27-html居中.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/01-HEML/27-html居中.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="28-浮动现象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/28-浮动现象.html" useBuiltInWebServerPort="true">
@@ -109,13 +103,16 @@
     <configuration name="30-清除浮动.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/30-清除浮动.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="33-小米商城导航栏.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/5-前端页面/02-CSS/33-小米商城导航栏.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.33-小米商城导航栏.html" />
         <item itemvalue="JavaScript Debug.30-清除浮动.html" />
         <item itemvalue="JavaScript Debug.29-浮动的破坏性.html" />
         <item itemvalue="JavaScript Debug.28-浮动现象.html" />
         <item itemvalue="JavaScript Debug.27-文件环绕.html" />
-        <item itemvalue="JavaScript Debug.27-html居中.html" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +133,8 @@
       <workItem from="1603694246644" duration="2138000" />
       <workItem from="1603696506874" duration="18599000" />
       <workItem from="1606112157705" duration="31827000" />
+      <workItem from="1606722069326" duration="165000" />
+      <workItem from="1606722291195" duration="5547000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,12 @@
     <style type="text/css">
 
         .top_bar{
+            /*bfc区域 一条规则，计算Bfc高度时，浮动元素也参数计算
+            形成BFC的条件，除了overflow:visitable 属性
+            */
+
             border: 1px solid red;
+            overflow: hidden;
             /*height: 200px;*/
 
         }
